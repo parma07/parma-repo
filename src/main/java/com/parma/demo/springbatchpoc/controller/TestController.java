@@ -25,7 +25,7 @@ public class TestController {
 	
 	@RequestMapping("/ping")
 	public String pingMe(){
-		return "PINGED";
+		return "PING SUCCESSFULL";
 	}
 	
 	@RequestMapping("/invokejob")
